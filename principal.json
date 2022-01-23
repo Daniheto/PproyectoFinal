@@ -14,11 +14,11 @@
     "imagen": "bife.jpg"
   },
   {
-    "nombre": "Entraña",
+    "nombre": "Entrana",
     "categoria": "Principal",
     "precio": 1600,
     "disponibles": 30,
-    "imagen": "entraña.jpg"
+    "imagen": "entrana.jpg"
   },
   {
     "nombre": "Vacio",
