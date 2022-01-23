@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Gaseosas",
+    "categoria": "Bebida",
+    "precio": 200,
+    "disponibles": 60,
+    "imagen": "gaseosa.jpg"
+  },
+  {
+    "nombre": "Aguas",
+    "categoria": "Bebida",
+    "precio": 200,
+    "disponibles": 60,
+    "imagen": "agua.jpg"
+  },
+  {
+    "nombre": "Cerveza",
+    "categoria": "Bebida",
+    "precio": 420,
+    "disponibles": 60,
+    "imagen": "cerveza.jpg"
+  },
+  {
+    "nombre": "Vino",
+    "categoria": "Bebida",
+    "precio": 800,
+    "disponibles": 60,
+    "imagen": "vino.jpg"
+  },
+  {
+    "nombre": "Limonada",
+    "categoria": "Bebida",
+    "precio": 390,
+    "disponibles": 60,
+    "imagen": "limonada.jpg"
+  },
+  {
+    "nombre": "Campari",
+    "categoria": "Bebida",
+    "precio": 210,
+    "disponibles": 60,
+    "imagen": "campari.jpg"
+  }
+]

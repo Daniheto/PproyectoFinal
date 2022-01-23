@@ -1,26 +1,32 @@
-#list {
-  font-size: medium;
+#lista {
+  list-style-type: none;
 }
 
-.container {
-  align-items: center;
-  grid-column: auto;
-  margin-left: 2rem;
+.titulos {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
 }
 
-.menu {
+.apertura {
   align-items: center;
-  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.parrillada {
+  width: 250px;
+  height: 125px;
+  text-align: center;
   margin-left: 40%;
 }
 
-.body {
-  background-image: linear-gradient(
-    to right top,
-    #5d90dc,
-    #009bd2,
-    #00a1b9,
-    #23a29a,
-    #5ba07e
-  );
+.cuerpo {
+  background-image: url(../imagen/parrillada.jpg);
+}
+
+@media (max-width: 768px) {
+  .row {
+    align-items: center;
+    flex-direction: column;
+  }
 }

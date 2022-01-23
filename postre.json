@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Flan",
+    "categoria": "Postre",
+    "precio": 310,
+    "disponibles": 40,
+    "imagen": "flan.jpg"
+  },
+  {
+    "nombre": "Chocotorta",
+    "categoria": "Postre",
+    "precio": 360,
+    "disponibles": 35,
+    "imagen": "chocotorta.jpg"
+  },
+  {
+    "nombre": "Brownie con Helado",
+    "categoria": "Postre",
+    "precio": 350,
+    "disponibles": 30,
+    "imagen": "brownie.jpg"
+  },
+  {
+    "nombre": "Ensalada de Frutas",
+    "categoria": "Postre",
+    "precio": 260,
+    "disponibles": 25,
+    "imagen": "ensalada.jpg"
+  },
+  {
+    "nombre": "Helado Artesanal",
+    "categoria": "Postre",
+    "precio": 310,
+    "disponibles": 40,
+    "imagen": "helado.jpg"
+  },
+  {
+    "nombre": "Panqueque de Dulce de Leche",
+    "categoria": "Postre",
+    "precio": 360,
+    "disponibles": 40,
+    "imagen": "panqueque.jpg"
+  }
+]

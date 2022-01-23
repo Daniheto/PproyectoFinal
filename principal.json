@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Bondiola de Cerdo",
+    "categoria": "Principal",
+    "precio": 1800,
+    "disponibles": 25,
+    "imagen": "bondiola.jpg"
+  },
+  {
+    "nombre": "Bife de Chorizo",
+    "categoria": "Principal",
+    "precio": 1500,
+    "disponibles": 30,
+    "imagen": "bife.jpg"
+  },
+  {
+    "nombre": "Entraña",
+    "categoria": "Principal",
+    "precio": 1600,
+    "disponibles": 30,
+    "imagen": "entraña.jpg"
+  },
+  {
+    "nombre": "Vacio",
+    "categoria": "Principal",
+    "precio": 2000,
+    "disponibles": 25,
+    "imagen": "vacio.jpg"
+  },
+  {
+    "nombre": "Matambrito de Cerdo",
+    "categoria": "Principal",
+    "precio": 1300,
+    "disponibles": 25,
+    "imagen": "matambrito.jpg"
+  },
+  {
+    "nombre": "Asado",
+    "categoria": "Principal",
+    "precio": 2200,
+    "disponibles": 30,
+    "imagen": "asado.jpg"
+  }
+]

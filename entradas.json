@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Mollejas",
+    "categoria": "Entrada",
+    "precio": 1100,
+    "disponibles": 40,
+    "imagen": "mollejas.jpg"
+  },
+  {
+    "nombre": "Chinchulines",
+    "categoria": "Entrada",
+    "precio": 600,
+    "disponibles": 40,
+    "imagen": "chinchulines.jpg"
+  },
+  {
+    "nombre": "Provoleta",
+    "categoria": "Entrada",
+    "precio": 590,
+    "disponibles": 35,
+    "imagen": "provoleta.jpg"
+  },
+  {
+    "nombre": "Morcilla",
+    "categoria": "Entrada",
+    "precio": 250,
+    "disponibles": 20,
+    "imagen": "morcilla.jpg"
+  },
+  {
+    "nombre": "Chorizo",
+    "categoria": "Entrada",
+    "precio": 310,
+    "disponibles": 20,
+    "imagen": "chorizo.jpg"
+  },
+  {
+    "nombre": "Empanada",
+    "categoria": "Entrada",
+    "precio": 115,
+    "disponibles": 50,
+    "imagen": "empanada.jpg"
+  }
+]
