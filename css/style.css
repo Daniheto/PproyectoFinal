@@ -21,7 +21,7 @@
 }
 
 .cuerpo {
-  background-image: url(../imagen/parrillada.jpg);
+  background-image: url(../fondo/parrillada.jpg);
 }
 
 @media (max-width: 768px) {
