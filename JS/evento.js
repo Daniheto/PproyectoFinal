@@ -34,28 +34,6 @@ function cargarEventosModal(productosDelStorage) {
         cargarProductosModal(JSON.parse(localStorage.getItem("carrito")));
       });
   });
-
-  productosDelStorage.forEach((productoCarrito, indice) => {
-    document.getElementById(`sum${indice}`).addEventListener("click", () => {
-      console.log();
-      if (productos[indice].cant < productos[indice].disponibles) {
-        productos[indice].cant++;
-        localStorage.setItem("carrito", JSON.stringify(productos));
-        cargarProductosModal(JSON.parse(localStorage.getItem("carrito")));
-      }
-    });
-  });
-
-  productosDelStorage.forEach((productoCarrito, indice) => {
-    document.getElementById(`rest${indice}`).addEventListener("click", () => {
-      console.log();
-      if (productos[indice].cant > 1) {
-        productos[indice].cant--;
-        localStorage.setItem("carrito", JSON.stringify(productos));
-        cargarProductosModal(JSON.parse(localStorage.getItem("carrito")));
-      }
-    });
-  });
 }
 
 // Cargo los productos al carrito de compras
@@ -76,8 +54,7 @@ function cargarProductosModal(productosDelStorage) {
               <h5 class="card-title">${productoCarrito.nombre}</h5>
               <div class="row">
                   <p class="card-text">Cantidad: ${productoCarrito.cant}</p>
-                  <button class= "btn btn-outline-secondary" id="sum${indice}"><i class="fas fa-plus"></i></button>
-                  <button class= "btn btn-outline-secondary" id="rest${indice}"><i class="fas fa-minus"></i></button> 
+                   
               </div>
               <p class="card-text">$${new Intl.NumberFormat("de-DE").format(
                 productoCarrito.precio * productoCarrito.cant
@@ -97,13 +74,4 @@ botonCarrito.addEventListener("click", () => {
   let productosDelStorage = JSON.parse(localStorage.getItem("carrito"));
 
   cargarProductosModal(productosDelStorage);
-});
-
-botonFinalizarCompra.addEventListener("click", () => {
-  localStorage.setItem("carrito", JSON.stringify([]));
-  swal(
-    "Gracias por su compra, buen provecho!",
-    "Los comida sera enviada de inmediato",
-    "success"
-  );
 });

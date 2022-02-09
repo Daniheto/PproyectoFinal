@@ -24,6 +24,13 @@
   background-image: url(../fondo/parrillada.jpg);
 }
 
+#pago {
+  align-items: center;
+  text-align: center;
+  margin-top: 16%;
+  margin-left: 36%;
+}
+
 @media (max-width: 768px) {
   .row {
     align-items: center;
